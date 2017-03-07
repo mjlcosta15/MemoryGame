@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="listentries">
+        <item>One Click</item>
+        <item>Long Click</item>
+        <item>Double Click</item>
+    </string-array>
+
+    <string-array name="listvalues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+
+    <string-array name="listtimers">
+        <item>2 Sec</item>
+        <item>5 Sec</item>
+        <item>10 Sec</item>
+        <item>Infinito</item>
+    </string-array>
+
+    <string-array name="timervalues">
+        <item>2000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>0</item>
+    </string-array>
+
+
+</resources>

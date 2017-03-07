@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/settingsCategory1Title">
+        <CheckBoxPreference
+            android:key="pref_intruders"
+            android:title="@string/checkbox1title"
+            android:summary="@string/checkbox1summary"
+            android:defaultValue="true" />
+
+        <CheckBoxPreference
+            android:key="pref_show"
+            android:title="@string/checkbox2title"
+            android:summary="@string/checkbox2Summary"
+            android:defaultValue="true" />
+
+        <ListPreference
+            android:key="click_mode"
+            android:title="@string/clickModeTitle"
+            android:summary="@string/clickModeSummary"
+            android:entries="@array/listentries"
+            android:entryValues="@array/listvalues"
+            android:defaultValue="1"/>
+
+        <ListPreference
+            android:key="click_time"
+            android:title="@string/settingsClickTimeTittle"
+            android:summary="@string/settingsClickTimeSummary"
+            android:entries="@array/listtimers"
+            android:entryValues="@array/timervalues"
+            android:defaultValue="0"/>
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/settingsCategory2Title">
+
+        <pt.isec.pem.memory.DialogExPreference
+            android:key="about"
+            android:title="@string/settingsDialogTitle"
+            android:summary="@string/settingsDialogSummary"
+            android:dialogTitle="@string/settingsDialogTitle"
+            android:positiveButtonText="@android:string/ok" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>
